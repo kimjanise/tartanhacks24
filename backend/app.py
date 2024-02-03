@@ -12,7 +12,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-user_input = input("Enter your Letterboxd username: ")
+user_input = input("Enter your Letterboxd username: ").strip()
 # user_input = "kaitlynng"
 favorites = user.User(user_input).favorites
 favorites = [item[0] for item in favorites]
