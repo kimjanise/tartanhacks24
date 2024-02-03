@@ -4,7 +4,7 @@ body {
 .title {
     color:black;
     font-size:3vw;
-    font-family:future;
+    font-family:futura;
     margin: 3vw 3vw 3vw 3vw;
     text-align: center;
 }
@@ -20,6 +20,7 @@ a:hover {
 .connect {
     width: 20vw;
     font-size: 2vw;
+    font-family:futura;
     padding: 2vw;
     text-align: center;
     margin: auto;
@@ -29,10 +30,15 @@ a:hover {
 .begin {
     width: 20vw;
     font-size: 2vw;
+    font-family:futura;
     padding: 2vw;
     text-align: center;
     margin: auto;
     margin-top: 2vw;
+}
+img {
+    width: 3vw;
+    height: 3vw;
 }
 div {
     background-color: mistyrose;
