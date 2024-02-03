@@ -8,3 +8,4 @@ Kaleido is a browser-based application that provides film recommendations by his
 - Node.js, React, Tailgate.css, Javascript
 - OpenAI Embeddings: convert movie overview strings to vectors intelligently
 - FAISS: vector database to store embeddings
+- Numpy: compare embeddings of user's favorite films with vectors associated with dataset films
