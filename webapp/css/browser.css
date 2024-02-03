@@ -1,10 +1,13 @@
+html {
+    font-family: futura;
+}
 body {
     background-color: thistle;
 }
 .title {
     color:black;
     font-size:3vw;
-    font-family:futura;
+    /* font-family:futura; */
     margin: 3vw 3vw 3vw 3vw;
     text-align: center;
 }
@@ -19,8 +22,8 @@ a:hover {
 }
 .connect {
     width: 20vw;
-    font-size: 2vw;
-    font-family:futura;
+    font-size: 1.5vw;
+    /* font-family:futura; */
     padding: 2vw;
     text-align: center;
     margin: auto;
@@ -29,8 +32,8 @@ a:hover {
 
 .begin {
     width: 20vw;
-    font-size: 2vw;
-    font-family:futura;
+    font-size: 1.5vw;
+    /* font-family:futura; */
     padding: 2vw;
     text-align: center;
     margin: auto;
@@ -43,7 +46,7 @@ img {
 div {
     background-color: mistyrose;
     width: 80vw;
-    padding: 5vw;
+    padding: 3vw;
     margin: auto;
     border-width: 1px;
     border-style: solid;
