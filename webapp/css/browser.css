@@ -1,0 +1,60 @@
+body {
+    background-color: thistle;
+}
+.title {
+    color:black;
+    font-size:3vw;
+    font-family:future;
+    margin: 3vw 3vw 3vw 3vw;
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: none;
+    color: black;
+}
+.connect {
+    width: 20vw;
+    font-size: 2vw;
+    padding: 2vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.begin {
+    width: 20vw;
+    font-size: 2vw;
+    padding: 2vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vw;
+}
+div {
+    background-color: mistyrose;
+    width: 80vw;
+    padding: 5vw;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2vw;
+}
+table {
+    margin: auto;
+}
+/* input {
+    font-size: 2vw;
+}
+button {
+    font-size: 2vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+label{
+    font-size: 2vw;
+} */
