@@ -19,7 +19,7 @@ a:hover {
 }
 .connect {
     width: 20vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family:futura;
     padding: 2vw;
     text-align: center;
@@ -29,7 +29,7 @@ a:hover {
 
 .begin {
     width: 20vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family:futura;
     padding: 2vw;
     text-align: center;
@@ -43,7 +43,7 @@ img {
 div {
     background-color: mistyrose;
     width: 80vw;
-    padding: 5vw;
+    padding: 3vw;
     margin: auto;
     border-width: 1px;
     border-style: solid;
