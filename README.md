@@ -5,7 +5,6 @@
 Kaleido is a browser-based application that provides film recommendations by historically underrepresented directors to aplify or underscore their voices based on users' film preferences.
 
 ### Technologies Used
-- Embedding Algorithm to create Recommendar
 - Node.js, React, Tailgate.css, Javascript
 - OpenAI Embeddings: convert movie overview strings to vectors intelligently
 - FAISS: vector database to store embeddings
