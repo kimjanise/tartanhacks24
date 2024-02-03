@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import numpy as np
 import pandas as pd
 
-user_input = "kaitlynng" #input("Enter your Letterboxd username: ")
+user_input = input("Enter your Letterboxd username: ")
 favorites = user.User(user_input).favorites
 favorites = [item[0] for item in favorites]
 print(favorites)
