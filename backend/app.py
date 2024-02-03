@@ -6,6 +6,12 @@ from dotenv import load_dotenv
 import numpy as np
 import pandas as pd
 
+from flask import Flask, jsonify
+from flask_cors import CORS, cross_origin
+app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 user_input = input("Enter your Letterboxd username: ")
 # user_input = "kaitlynng"
 favorites = user.User(user_input).favorites
@@ -50,3 +56,10 @@ for d in all_recs:
         seen.add(d['title'])
 
 print(unique_list_of_recs)
+
+@app.route('/api/recommendations')
+@cross_origin()
+def get_recommendations():
+    return jsonify({
+        "movies": unique_list_of_recs
+    })

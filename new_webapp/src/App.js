@@ -15,7 +15,7 @@ const Recommendations = () => {
   useEffect(() => {
     // Simulate fetching data from your backend
     const fetchMovies = async () => {
-      const response = await fetch('/api/recommendations'); // Adjust the endpoint as needed
+      const response = await fetch('http://localhost:3001/api/recommendations'); // Adjust the endpoint as needed
       const data = await response.json();
       setMovies(data.movies);
     };
