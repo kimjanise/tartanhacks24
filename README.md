@@ -2,7 +2,7 @@
 **Project by: Janise Kim (janisek), Kaitlyn Ng (kgn), Lucy Wang (lexinw), Jessie Yuan (jzyuan)**
 
 ### Description
-Kaleido is a browser-based application that provides film recommendations by historically underrepresented directors to aplify or underscore their voices based on users' film preferences.
+Kaleido is a browser-based application that provides film recommendations by historically underrepresented directors to amplify or underscore their voices based on users' film preferences.
 
 ### Technologies Used
 - Node.js, React, Tailgate.css, Javascript
